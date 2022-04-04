@@ -1,0 +1,9 @@
+
+
+spring:
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+
+  data:
+    mongodb:
+      uri: mongodb://localhost/qqbot?serverSelectionTimeoutMS=2000&connectTimeoutMS=3000
